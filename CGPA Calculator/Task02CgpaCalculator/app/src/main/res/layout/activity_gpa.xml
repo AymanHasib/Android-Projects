@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".gpa"
+    android:orientation="vertical"
+    android:weightSum="11"
+    android:background="#BDF3E6"
+    android:layout_margin="10dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Grade Point Average"
+            android:gravity="center_horizontal"
+            android:background="#3F49E3"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:textSize="20dp"></TextView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:paddingRight="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <EditText
+                android:backgroundTint="#3F49E3"
+                android:id="@+id/edt_gpa1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="12dp"
+                android:hint="Enter credit Subject 1"
+                android:inputType="numberDecimal"></EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:backgroundTint="#3F49E3"
+                android:id="@+id/edt_CRHour1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="12dp"
+                android:hint="Enter credit hour Subject 1"
+                android:inputType="numberDecimal"></EditText>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:paddingRight="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <EditText
+                android:backgroundTint="#3F49E3"
+                android:id="@+id/edt_gpa2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="12dp"
+                android:hint="Enter credit Subject 2"
+                android:inputType="numberDecimal"></EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:backgroundTint="#3F49E3"
+                android:id="@+id/edt_CRHour2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="12dp"
+                android:hint="Enter credit hour Subject 2"
+                android:inputType="numberDecimal"></EditText>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:paddingRight="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <EditText
+                android:backgroundTint="#3F49E3"
+                android:id="@+id/edt_gpa3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="12dp"
+                android:hint="Enter credit Subject 3"
+                android:inputType="numberDecimal"></EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:backgroundTint="#3F49E3"
+                android:id="@+id/edt_CRHour3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="12dp"
+                android:hint="Enter credit hour Subject 3"
+                android:inputType="numberDecimal"></EditText>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:paddingRight="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <EditText
+                android:backgroundTint="#3F49E3"
+                android:id="@+id/edt_gpa4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="12dp"
+                android:hint="Enter credit Subject 4"
+                android:inputType="numberDecimal"></EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:backgroundTint="#3F49E3"
+                android:id="@+id/edt_CRHour4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="12dp"
+                android:hint="Enter credit hour Subject 4"
+                android:inputType="numberDecimal"></EditText>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:paddingRight="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <EditText
+                android:backgroundTint="#3F49E3"
+                android:id="@+id/edt_gpa5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="12dp"
+                android:hint="Enter credit Subject 5"
+                android:inputType="numberDecimal"></EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:backgroundTint="#3F49E3"
+                android:id="@+id/edt_CRHour5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="12dp"
+                android:hint="Enter credit hour Subject 5"
+                android:inputType="numberDecimal"></EditText>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:paddingRight="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <EditText
+                android:backgroundTint="#3F49E3"
+                android:id="@+id/edt_gpa6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="12dp"
+                android:hint="Enter credit Subject 6"
+                android:inputType="numberDecimal"></EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:backgroundTint="#3F49E3"
+                android:id="@+id/edt_CRHour6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="12dp"
+                android:hint="Enter credit hour Subject 6"
+                android:inputType="numberDecimal"></EditText>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:paddingRight="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <EditText
+                android:backgroundTint="#3F49E3"
+                android:id="@+id/edt_gpa7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="12dp"
+                android:hint="Enter credit Subject 7"
+                android:inputType="numberDecimal"></EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:backgroundTint="#3F49E3"
+                android:id="@+id/edt_CRHour7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="12dp"
+                android:hint="Enter credit hour Subject 7"
+                android:inputType="numberDecimal"></EditText>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:paddingRight="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <EditText
+                android:backgroundTint="#3F49E3"
+                android:id="@+id/edt_gpa8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="12dp"
+                android:hint="Enter credit Subject 8"
+                android:inputType="numberDecimal"></EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:backgroundTint="#3F49E3"
+                android:id="@+id/edt_CRHour8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="12dp"
+                android:hint="Enter credit hour Subject 8"
+                android:inputType="numberDecimal"></EditText>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/submitButtonID"
+                android:layout_width="150dp"
+                android:drawableLeft="@drawable/submit"
+                android:textStyle="bold"
+                android:background="#000000"
+                android:textColor="#ffffff"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10sp"
+                android:text="Submit"
+                android:textSize="15dp"></Button>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <Button
+                android:drawableLeft="@drawable/clear"
+                android:textStyle="bold"
+                android:background="#000000"
+                android:textColor="#ffffff"
+                android:id="@+id/clearButtonID"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:text="Clear"
+                android:textSize="15dp"
+                android:layout_marginLeft="20dp"></Button>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:background="#FFF701"
+            android:id="@+id/gpaResultTextViewID"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textColor="#4268E4"
+            android:textStyle="bold"
+            ></TextView>
+    </LinearLayout>
+
+
+</LinearLayout>

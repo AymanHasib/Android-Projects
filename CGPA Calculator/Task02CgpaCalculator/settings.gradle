@@ -1,0 +1,2 @@
+rootProject.name='Task 02 Cgpa Calculator'
+include ':app'

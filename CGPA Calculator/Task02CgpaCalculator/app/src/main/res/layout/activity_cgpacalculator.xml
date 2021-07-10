@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="11"
+    android:layout_margin="5dp"
+    android:background="#BDF3E6"
+    tools:context=".cgpacalculator">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:background="#3F49E3"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Cumulative Grade Points Average"
+            android:gravity="center_horizontal"
+            android:textSize="18dp"
+            ></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <EditText
+            android:backgroundTint="#0015FF"
+            android:id="@+id/edt_Cgpa_Semester1_ID"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Enter 1st Semester CGPA"
+            android:textSize="20dp"
+            android:inputType="numberDecimal"></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <EditText
+            android:backgroundTint="#0015FF"
+            android:id="@+id/edt_Cgpa_Semester2_ID"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Enter 2nd Semester CGPA"
+            android:textSize="20dp"
+            android:inputType="numberDecimal"></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <EditText
+            android:backgroundTint="#0015FF"
+            android:id="@+id/edt_Cgpa_Semester3_ID"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Enter 3rd Semester CGPA"
+            android:textSize="20dp"
+            android:inputType="numberDecimal"></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <EditText
+            android:backgroundTint="#0015FF"
+            android:id="@+id/edt_Cgpa_Semester4_ID"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Enter 4th Semester CGPA"
+            android:textSize="20dp"
+            android:inputType="numberDecimal"></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <EditText
+            android:backgroundTint="#0015FF"
+            android:id="@+id/edt_Cgpa_Semester5_ID"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Enter 5th Semester CGPA"
+            android:textSize="20dp"
+            android:inputType="numberDecimal"></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <EditText
+            android:backgroundTint="#0015FF"
+            android:id="@+id/edt_Cgpa_Semester6_ID"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Enter 6th Semester CGPA"
+            android:textSize="20dp"
+            android:inputType="numberDecimal"></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <EditText
+            android:backgroundTint="#0015FF"
+            android:id="@+id/edt_Cgpa_Semester7_ID"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Enter 7th Semester CGPA"
+            android:textSize="20dp"
+            android:inputType="numberDecimal"></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <EditText
+            android:backgroundTint="#0015FF"
+            android:id="@+id/edt_Cgpa_Semester8_ID"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Enter 8th Semester CGPA"
+            android:textSize="20dp"
+            android:inputType="numberDecimal"></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/cgpaSubmitButtonID"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:background="#040404"
+            android:drawableLeft="@drawable/submit"
+            android:text="submit"
+            android:textColor="#ffffff"
+            android:textSize="16dp"
+            android:textStyle="bold"></Button>
+
+        <Button
+            android:paddingRight="30dp"
+            android:drawableLeft="@drawable/clear"
+            android:background="#040404"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:id="@+id/cgpaClearButtonID"
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:text="clear"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"></Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:background="#FFF701"
+            android:textColor="#0015FF"
+            android:id="@+id/cgpaResultTextViewID"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"></TextView>
+    </LinearLayout>
+
+</LinearLayout>

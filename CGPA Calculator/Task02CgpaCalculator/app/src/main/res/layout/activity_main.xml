@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    android:background="#FBE581"
+    tools:context=".MainActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:background="#6FE4CD"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome TO CGPA Calculator "
+            android:textSize="20dp"
+            android:gravity="center_horizontal"
+            android:textStyle="bold|italic"
+            android:padding="8dp"
+            android:layout_marginBottom="10dp"
+            ></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#FBE581"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Any Option"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:padding="8dp"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@drawable/calculator"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="25dp">
+
+        <Button
+            android:layout_marginTop="30dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:background="#151414"
+            android:id="@+id/gpa_buttonID"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="60dp"
+            android:drawableLeft="@drawable/gpa"
+            android:text="Gpa"
+            android:layout_margin="10dp"
+            android:textSize="25dp"></Button>
+
+        <Button
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:background="#151414"
+            android:id="@+id/cgpa_buttonID"
+            android:layout_width="150dp"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="CGpa"
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/grade"
+            android:layout_marginLeft="60dp"
+            ></Button>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
