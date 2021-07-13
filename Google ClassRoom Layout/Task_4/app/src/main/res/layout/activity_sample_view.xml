@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sample_view">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:padding="5dp">
+        <ImageView
+            android:id="@+id/imageViewId"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/graphics"
+            android:scaleType="fitXY"></ImageView>
+
+        <TextView
+            android:id="@+id/teamNameTextViewId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Graphics Team"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"></TextView>
+
+        <TextView
+            android:id="@+id/leaderNameTextViewId"
+           android:layout_marginTop="125dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sheikh Nipa"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/white"></TextView>
+    </RelativeLayout>
+
+</LinearLayout>
+
+

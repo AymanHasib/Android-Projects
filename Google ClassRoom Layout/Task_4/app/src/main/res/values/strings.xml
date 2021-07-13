@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Task_4</string>
+    <string-array name="team_name">
+        <item>Android Team</item>
+        <item>Web Team</item>
+        <item>Graphics Team</item>
+        <item>Data Team</item>
+        <item>Data Communications</item>
+        <item>System Analysis and Design</item>
+        <item>Theory of Computation</item>
+        <item>Visual and Web Programing</item>
+        <item>Microprocessors and Assembly</item>
+        <item>English for Communications</item>
+    </string-array>
+
+    <string-array name="leader_name">
+        <item>Imran Nazir</item>
+        <item>Saqib Sizan</item>
+        <item>Sheikh Nipa</item>
+        <item>Sabbir Hosen</item>
+        <item>Nadeem Ahmed</item>
+        <item>Shaila Rahman</item>
+        <item>Naima Sultana</item>
+        <item>Nahiyan Uddin</item>
+        <item>Sakib Hasan</item>
+        <item>Shuchona Ahmed</item>
+    </string-array>
+</resources>
