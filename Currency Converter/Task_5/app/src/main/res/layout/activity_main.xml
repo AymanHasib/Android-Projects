@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Input Currency"
+            android:padding="10dp"
+            android:textSize="15sp"
+            android:gravity="center_horizontal"
+            android:textColor="#F60404"
+            android:background="#72EDE3"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Converted Currency"
+            android:padding="10dp"
+            android:textSize="15sp"
+            android:gravity="center_horizontal"
+            android:textColor="#184FD8"
+            android:background="#FFEB3B"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="250dp"
+            android:background="#E91E63"
+            android:orientation="vertical">
+
+            <Spinner
+                android:id="@+id/spinnerInputId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                ></Spinner>
+
+            <EditText
+                android:inputType="numberDecimal"
+                android:id="@+id/editTextId"
+                android:hint="your currency"
+                android:backgroundTint="#0B10FF"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="100dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"></EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="#184FD8"
+            android:orientation="vertical">
+            <Spinner
+                android:id="@+id/spinnerConvertedId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></Spinner>
+
+            <TextView
+                android:id="@+id/resultTextViewId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="100dp"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                ></TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/ShowButtonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SHOW CONVERSION"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"></Button>
+
+
+</LinearLayout>
