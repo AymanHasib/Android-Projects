@@ -1,0 +1,2 @@
+rootProject.name='Uap_Site'
+include ':app'
